@@ -1,11 +1,11 @@
-package com.project_name.step_definitions;
+package com.google_page.step_definitions;
 
 
 
 
-import com.project_name.utilities.BrowserUtils;
-import com.project_name.utilities.ConfigurationReader;
-import com.project_name.utilities.Driver;
+import com.google_page.utilities.BrowserUtils;
+import com.google_page.utilities.ConfigurationReader;
+import com.google_page.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

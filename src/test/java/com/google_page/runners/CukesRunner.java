@@ -1,4 +1,4 @@
-package com.project_name.runners;
+package com.google_page.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "com/project_name/step_definitions",
+        glue = "com/google_page/step_definitions",
         dryRun = false,
         tags = "@wip",
         publish = true //generating a report with public link
